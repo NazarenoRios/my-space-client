@@ -9,10 +9,23 @@ module.exports = {
     extend: {
       colors: {
         primary: "#4A3AFF",
+        glass: "rgba(255,255,255,0.25)",
+        brown: "rgb(30, 30, 17);",
+        darkyellow: "#F3C669",
+        darkyellowhover: "#F4D789",
+        darkpurple: "#644c71",
+        off: "#FFFFF0",
+
       },
       backgroundImage: {
-        Hero: "url('assets/Hero.png')",
+        back: "url(../assets/background7.jpg)",
       },
+      fontFamily: {
+        WhitneyLight: ['WhitneyLight','sans-serif'],
+        WhitneyMedium: ['WhitneyMedium','sans-serif'],
+        WhitneySemibold: ['WhitneySemibold','sans-serif'],
+        WhitneyBold: ['WhitneyBold','sans-serif'],
+      }
     },
   },
   plugins: [],

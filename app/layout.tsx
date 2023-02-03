@@ -1,5 +1,5 @@
 import "../styles/globals.css"
-import Navbar from "./Navbar";
+import SideBar from "./Sidebar";
 
 export default function DashboardLayout({
   children,
@@ -9,8 +9,8 @@ export default function DashboardLayout({
   return (
     <html>
       <head></head>
-      <body>
-        <Navbar/>
+      <body className="w-full h-screen bg-back bg-cover object-cover flex items-center">
+        <SideBar/>
         {children}
       </body>
     </html>
