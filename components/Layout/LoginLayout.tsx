@@ -1,4 +1,5 @@
-import "../styles/globals.css"
+import "../../styles/globals.css"
+import SideBar from "../../components/Sidebar/Sidebar";
 
 export default function DashboardLayout({
   children,
@@ -9,6 +10,7 @@ export default function DashboardLayout({
     <html>
       <head></head>
       <body className="w-full h-screen bg-login bg-cover object-cover flex items-center">
+        <SideBar/>
         {children}
       </body>
     </html>

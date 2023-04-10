@@ -18,7 +18,8 @@ module.exports = {
 
       },
       backgroundImage: {
-        back: "url(../assets/background7.jpg)",
+        main: "url(../assets/background7.jpg)",
+        login: "url(../assets/bgLogin.jpg)"
       },
       fontFamily: {
         WhitneyLight: ['WhitneyLight','sans-serif'],
