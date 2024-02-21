@@ -6,9 +6,9 @@ function Home() {
       <div>
         <h1 className="sm:hidden text-darkpurple text-8xl">M</h1>
         <h1 className="sm:hidden text-white text-4xl">y</h1>
-        <br/>
-        <br/>
-        <br/>
+        <br />
+        <br />
+        <br />
         <h1 className="sm:hidden text-darkyellow text-8xl">S</h1>
         <h1 className="sm:hidden text-white text-4xl">p</h1>
         <h1 className="sm:hidden text-white text-4xl">a</h1>
@@ -23,7 +23,7 @@ function Home() {
         In this place you can enjoy your free space along with many of the
         necessary features for your day. You can organize your daily life and
         also your favorite series, movies or anime. <br /> If you want to
-        contribute you can click on the following{" "}
+        contribute you can click on the followingg{" "}
         <a
           className="font-WhitneyLight text-darkyellow hover:text-darkyellowhover"
           href="https://www.youtube.com/playlist?list=PLMJPaCcJTig8BsVcTSpINZwGg4Hw0-3Vc"
